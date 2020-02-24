@@ -1,0 +1,29 @@
+[color]
+  branch      = auto
+  diff        = auto
+  status      = auto
+  interactive = auto
+  grep        = auto
+  pager       = true
+  ui          = true
+
+[color "grep"]
+  filename   = 208
+  linenumber = 161
+
+[alias]
+  b       = branch
+  d       = diff
+  co      = checkout
+  gp      = grep -n
+  lg      = log --stat
+  st      = status -u
+  stashes = stash list
+  unadd   = reset HEAD
+
+[core]
+  editor = vim
+
+[user]
+  name  = Toru Maesaka
+  email = toru@torumk.com
