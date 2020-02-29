@@ -1,0 +1,4 @@
+URxvt.saveLines: 4000
+URxvt.scrollBar: false
+URxvt*background: #222222
+URxvt*foreground: #eeeeee
