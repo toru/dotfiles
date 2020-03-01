@@ -12,14 +12,15 @@
   linenumber = 161
 
 [alias]
-  b       = branch
-  d       = diff
-  co      = checkout
-  gp      = grep -n
-  lg      = log --stat
-  st      = status -u
-  stashes = stash list
-  unadd   = reset HEAD
+  b         = branch
+  d         = diff
+  co        = checkout
+  gp        = grep -n
+  lg        = log --stat
+  st        = status -u
+  stash-all = stash save --include-untracked
+  stashes   = stash list
+  unadd     = reset HEAD
 
 [core]
   editor = vim
