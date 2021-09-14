@@ -7,3 +7,4 @@ alias m='make -j8'
 alias tmx='tmux'
 alias uuid='uuidgen | tr -d - | tr "[:upper:]" "[:lower:]"'
 alias v='vim'
+alias rev="git log -1 --pretty=format:%h"
