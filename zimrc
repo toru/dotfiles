@@ -1,0 +1,24 @@
+# Environemnt
+zmodule environment
+zmodule git
+zmodule input
+zmodule termtitle
+zmodule utility
+
+# Prompt
+zmodule asciiship
+zmodule duration-info
+zmodule git-info
+zmodule prompt-pwd
+
+# Theme
+zmodule gitster
+
+# Completion
+zmodule zsh-users/zsh-completions --fpath src
+zmodule completion
+
+# Modules that must be initialized last
+zmodule zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-history-substring-search
+zmodule zsh-users/zsh-autosuggestions
